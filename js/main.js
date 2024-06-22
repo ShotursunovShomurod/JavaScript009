@@ -76,11 +76,16 @@
 
 // masala7
 // {
-//   function bringtness(color) {
-//     if (color == "Dark"){
-//       console.log(color === "Light");
+//   function brightness(input) {
+//     if (input === "dark") {
+//         return "light";
+//     } else if (input === "light") {
+//         return "dark";
+//     } else {
+//         return "Invalid input";
 //     }
-//   }
-//   console.log("Dark");
-//   console.log("Light");
+// }
+
+// console.log(brightness("dark"));
+// console.log(brightness("light"));
 // }
